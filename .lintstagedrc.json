@@ -1,0 +1,6 @@
+{
+  "(*.ts|*.svelte)": ["prettier --write", "eslint --fix"],
+  "(*.css)": ["prettier --write"],
+  "(*.cjs|*.json|*.md|*.html|*.yml)": "prettier --write",
+  "package.json": "sort-package-json"
+}
